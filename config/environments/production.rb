@@ -86,8 +86,8 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_cable.allowed_request_origins = ['https://sitepoint-actioncable.herokuapp.com',
-                                                 'http://sitepoint-actioncable.herokuapp.com']
+  config.action_cable.allowed_request_origins = ['https://yakchat.herokuapp.com',
+                                                 'http://yakchat.herokuapp.com']
 
-  config.action_cable.url = "wss://sitepoint-actioncable.herokuapp.com/cable"
+  config.action_cable.url = "wss://yakchat.herokuapp.com/cable"
 end
